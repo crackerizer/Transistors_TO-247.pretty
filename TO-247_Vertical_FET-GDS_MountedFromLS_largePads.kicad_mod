@@ -1,5 +1,4 @@
-(module TO-247_Vertical_FET-GDS_MountedFromLS_largePads (layer F.Cu)
-  (at 0 0)
+(module TO-247_Vertical_FET-GDS_MountedFromLS_largePads (layer F.Cu) (tedit 53FC096E)
   (descr "TO-247 TO-218 TOP-3 FET 1=Gate 2=Drain 3=Source, Vertical, Mounted from LS, large Pads,")
   (tags "Transistor FET TO-247 TO-218 TOP-3 Vertical, LS, large Pads")
   (fp_text reference T (at 1.27 -3.81) (layer F.SilkS)
@@ -45,4 +44,9 @@
   (pad D thru_hole oval (at 0 0 90) (size 5.50164 3.50012) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
   (pad S thru_hole oval (at -5.588 0 90) (size 5.50164 3.50012) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
   (pad G thru_hole oval (at 5.588 0 90) (size 5.50164 3.50012) (drill 1.50114) (layers *.Cu *.Mask F.SilkS))
+  (model discret/to247ac_vert.wrl
+    (at (xyz 0 0 -0.07000000000000001))
+    (scale (xyz 4 4 4))
+    (rotate (xyz 180 0 180))
+  )
 )
