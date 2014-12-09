@@ -2,11 +2,11 @@
   (at 0 0)
   (descr "TO-247 TO-218 TOP-3 FET 1=Gate 2=Drain 3=Source, Vertical, Mounted from LS, large Pads,")
   (tags "Transistor FET TO-247 TO-218 TOP-3 Vertical, LS, large Pads")
-  (fp_text reference IC (at 1.27 -5.08) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference TO-247_Vertical_Neutral123_MountedFromLS_largePads (at 1.27 -5.08) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value TO-247-Vertical-GDS-MountedFromLS-LargePads (at -1.27 6.35) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at -1.27 6.35) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.524 -2.794) (end 2.286 -2.794) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.54 -2.794) (end -1.27 -2.794) (layer F.SilkS) (width 0.15))
